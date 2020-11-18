@@ -1,0 +1,34 @@
+{
+  "data": [
+	{"id":1, "text":"Booking #1", "start_date":"02-04-2019", "duration":"16", "progress": 0.6, "open": true, "priority":3},
+	{"id":2, "text":"Booking #2", "start_date":"11-04-2019", "duration":"8", "progress": 0.4, "open": true, "priority":2},
+	{"id":3, "text":"Booking #3", "start_date":"02-04-2019", "duration":"7", "progress": 0.4, "open": true, "priority":3},
+	{"id":4, "text":"Booking #4", "start_date":"03-04-2019", "duration":"10", "progress": 0.4, "open": true, "priority":1},
+
+	{"id":5, "text":"Item #1", "start_date":"02-04-2019", "duration":"8", "parent":"1", "progress":0.5, "open": true, "owner_id": "1", "Priority": "1"},
+	{"id":6, "text":"Item #2", "start_date":"11-04-2019", "duration":"8", "parent":"1", "progress": 0.6, "open": true, "owner_id": "1"},
+	{"id":7, "text":"Item #3", "start_date":"13-04-2019", "duration":"6", "parent":"1", "progress": 0.5, "open": true, "owner_id": "2"},
+	{"id":8, "text":"Item #1.1", "start_date":"02-04-2019", "duration":"7", "parent":"1", "progress": 0.6, "open": true, "owner_id": "3"},
+	{"id":9, "text":"Item #1.2", "start_date":"03-04-2019", "duration":"7", "parent":"1", "progress": 0.6, "open": true, "owner_id": "2"},
+	
+	{"id":10, "text":"Item #2.1", "start_date":"11-04-2019", "duration":"8", "parent":"2", "progress": 0.6, "open": true, "owner_id": "3"},
+	{"id":11, "text":"Item #2.2", "start_date":"14-04-2019", "duration":"5", "parent":"2", "progress": 0.5, "open": true, "owner_id": "1"},
+	{"id":12, "text":"Item #2.3", "start_date":"14-04-2019", "duration":"4", "parent":"2", "progress": 0.5, "open": true, "owner_id": "4"},
+	{"id":13, "text":"Item #2.4", "start_date":"14-04-2019", "duration":"3", "parent":"2", "progress": 0.5, "open": true, "owner_id": "1"},
+	
+	{"id":14, "text":"Item #1", "start_date":"03-06-2019", "duration":"5", "parent":"3", "progress": 1, "open": true, "owner_id": "4"},
+	{"id":15, "text":"Item #2", "start_date":"02-09-2019", "duration":"7", "parent":"3", "progress": 0.5, "open": true, "owner_id": "4"},
+	{"id":16, "text":"Item #3", "start_date":"02-09-2019", "duration":"6", "parent":"3", "progress": 0.8, "open": true, "owner_id": "4"},
+	{"id":17, "text":"Item #4", "start_date":"02-10-2019", "duration":"5", "parent":"3", "progress": 0.2, "open": true, "owner_id": "4"},
+	{"id":18, "text":"Item #5", "start_date":"02-11-2019", "duration":"7", "parent":"3", "progress": 0, "open": true, "owner_id": "4"},
+
+	{"id":19, "text":"Item #4.1", "start_date":"03-04-2019", "duration":"2", "parent":"4", "progress": 1, "open": true, "owner_id": "1"},
+	{"id":20, "text":"Item #4.2", "start_date":"06-04-2019", "duration":"3", "parent":"4", "progress": 0.8, "open": true, "owner_id": "2"},
+	{"id":21, "text":"Item #4.3", "start_date":"10-04-2019", "duration":"4", "parent":"4", "progress": 0.2, "open": true, "owner_id": "2"},
+	{"id":22, "text":"Item #4.4", "start_date":"10-04-2019", "duration":"4", "parent":"4", "progress": 0, "open": true, "owner_id": "2"},
+	{"id":23, "text":"Item #4.5", "start_date":"03-04-2019", "duration":"4", "parent":"4", "progress": 0.5, "open": true, "owner_id": "3"},
+	{"id":24, "text":"Item #4.6", "start_date":"03-04-2019", "duration":"4", "parent":"4", "progress": 0.1, "open": true, "owner_id": "2"},
+	{"id":25, "text":"Item #4.7", "start_date":"03-04-2019", "duration":"5", "parent":"4", "progress": 0, "open": true, "owner_id": "5"}
+  ]
+}
+

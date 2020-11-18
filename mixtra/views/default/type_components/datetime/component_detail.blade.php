@@ -1,0 +1,1 @@
+{{ !empty($value) ? date("M d Y H:i", strtotime($value)) : null }}
